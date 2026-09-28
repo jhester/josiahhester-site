@@ -525,7 +525,7 @@ h3.sub-title {
   padding: 24px 26px;
   margin: 8px 0 28px;
 }
-.featured-kicker {
+.featured .featured-kicker {
   color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -547,9 +547,18 @@ h3.sub-title {
 .featured .featured-links a { color: var(--accent); text-decoration: none; }
 .featured .featured-links a:hover, .featured .featured-links a:focus-visible { text-decoration: underline; }
 .featured-media { border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+/* About-page variant: kicker + title span the full width above the two columns */
+.featured--about { grid-template-columns: 1fr 1fr; row-gap: 16px; }
+.featured--about .featured-head { grid-column: 1 / -1; }
+.featured--about .featured-head h2 { margin-bottom: 0; }
+.featured--about .featured-text p:first-child { margin-top: 0; }
+@media (min-width: 721px) {
+  .featured--about .nb, .featured--about .featured-kicker { white-space: nowrap; }
+}
 @media (max-width: 720px) {
   .featured { grid-template-columns: 1fr; padding: 20px; gap: 18px; }
   .featured-media { order: -1; }
+  .featured--about .featured-head { order: -2; }
 }
 
 /* Click-to-play video facade: poster + play button, real player loads on click */
