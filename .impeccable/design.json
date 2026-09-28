@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T21:40:14Z",
+  "title": "Design System: josiahhester.com",
+  "extensions": {
+    "colorMeta": {
+      "volcanic-clay": { "role": "primary", "displayName": "Volcanic Clay", "canonical": "oklch(53.0% 0.153 31.1)", "tonalRamp": ["oklch(15% 0.153 31.1)", "oklch(26% 0.153 31.1)", "oklch(38% 0.153 31.1)", "oklch(49% 0.153 31.1)", "oklch(61% 0.153 31.1)", "oklch(72% 0.153 31.1)", "oklch(84% 0.153 31.1)", "oklch(95% 0.153 31.1)"] },
+      "sunset-coral": { "role": "primary", "displayName": "Sunset Coral", "canonical": "oklch(71.8% 0.111 36.4)", "tonalRamp": ["oklch(15% 0.111 36.4)", "oklch(26% 0.111 36.4)", "oklch(38% 0.111 36.4)", "oklch(49% 0.111 36.4)", "oklch(61% 0.111 36.4)", "oklch(72% 0.111 36.4)", "oklch(84% 0.111 36.4)", "oklch(95% 0.111 36.4)"] },
+      "clay-wash": { "role": "primary", "displayName": "Clay Wash", "canonical": "oklch(92.6% 0.016 32.0)", "tonalRamp": ["oklch(15% 0.016 32.0)", "oklch(26% 0.016 32.0)", "oklch(38% 0.016 32.0)", "oklch(49% 0.016 32.0)", "oklch(61% 0.016 32.0)", "oklch(72% 0.016 32.0)", "oklch(84% 0.016 32.0)", "oklch(95% 0.016 32.0)"] },
+      "ember-shadow": { "role": "primary", "displayName": "Ember Shadow", "canonical": "oklch(25.9% 0.015 53.9)", "tonalRamp": ["oklch(15% 0.015 53.9)", "oklch(26% 0.015 53.9)", "oklch(38% 0.015 53.9)", "oklch(49% 0.015 53.9)", "oklch(61% 0.015 53.9)", "oklch(72% 0.015 53.9)", "oklch(84% 0.015 53.9)", "oklch(95% 0.015 53.9)"] },
+      "white": { "role": "neutral", "displayName": "White", "canonical": "oklch(100.0% 0.000 89.9)", "tonalRamp": ["oklch(15% 0.000 89.9)", "oklch(26% 0.000 89.9)", "oklch(38% 0.000 89.9)", "oklch(49% 0.000 89.9)", "oklch(61% 0.000 89.9)", "oklch(72% 0.000 89.9)", "oklch(84% 0.000 89.9)", "oklch(95% 0.000 89.9)"] },
+      "paper": { "role": "neutral", "displayName": "Unbleached Paper", "canonical": "oklch(97.3% 0.003 84.6)", "tonalRamp": ["oklch(15% 0.003 84.6)", "oklch(26% 0.003 84.6)", "oklch(38% 0.003 84.6)", "oklch(49% 0.003 84.6)", "oklch(61% 0.003 84.6)", "oklch(72% 0.003 84.6)", "oklch(84% 0.003 84.6)", "oklch(95% 0.003 84.6)"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "oklch(21.8% 0.000 89.9)", "tonalRamp": ["oklch(15% 0.000 89.9)", "oklch(26% 0.000 89.9)", "oklch(38% 0.000 89.9)", "oklch(49% 0.000 89.9)", "oklch(61% 0.000 89.9)", "oklch(72% 0.000 89.9)", "oklch(84% 0.000 89.9)", "oklch(95% 0.000 89.9)"] },
+      "ink-muted": { "role": "neutral", "displayName": "Ink, Muted", "canonical": "oklch(52.8% 0.000 89.9)", "tonalRamp": ["oklch(15% 0.000 89.9)", "oklch(26% 0.000 89.9)", "oklch(38% 0.000 89.9)", "oklch(49% 0.000 89.9)", "oklch(61% 0.000 89.9)", "oklch(72% 0.000 89.9)", "oklch(84% 0.000 89.9)", "oklch(95% 0.000 89.9)"] },
+      "hairline": { "role": "neutral", "displayName": "Hairline", "canonical": "oklch(92.5% 0.006 84.6)", "tonalRamp": ["oklch(15% 0.006 84.6)", "oklch(26% 0.006 84.6)", "oklch(38% 0.006 84.6)", "oklch(49% 0.006 84.6)", "oklch(61% 0.006 84.6)", "oklch(72% 0.006 84.6)", "oklch(84% 0.006 84.6)", "oklch(95% 0.006 84.6)"] },
+      "night": { "role": "neutral", "displayName": "Night", "canonical": "oklch(18.6% 0.008 95.5)", "tonalRamp": ["oklch(15% 0.008 95.5)", "oklch(26% 0.008 95.5)", "oklch(38% 0.008 95.5)", "oklch(49% 0.008 95.5)", "oklch(61% 0.008 95.5)", "oklch(72% 0.008 95.5)", "oklch(84% 0.008 95.5)", "oklch(95% 0.008 95.5)"] },
+      "charcoal-paper": { "role": "neutral", "displayName": "Charcoal Paper", "canonical": "oklch(22.1% 0.010 97.8)", "tonalRamp": ["oklch(15% 0.010 97.8)", "oklch(26% 0.010 97.8)", "oklch(38% 0.010 97.8)", "oklch(49% 0.010 97.8)", "oklch(61% 0.010 97.8)", "oklch(72% 0.010 97.8)", "oklch(84% 0.010 97.8)", "oklch(95% 0.010 97.8)"] },
+      "bone": { "role": "neutral", "displayName": "Bone", "canonical": "oklch(93.4% 0.010 87.5)", "tonalRamp": ["oklch(15% 0.010 87.5)", "oklch(26% 0.010 87.5)", "oklch(38% 0.010 87.5)", "oklch(49% 0.010 87.5)", "oklch(61% 0.010 87.5)", "oklch(72% 0.010 87.5)", "oklch(84% 0.010 87.5)", "oklch(95% 0.010 87.5)"] },
+      "bone-muted": { "role": "neutral", "displayName": "Bone, Muted", "canonical": "oklch(69.7% 0.021 87.5)", "tonalRamp": ["oklch(15% 0.021 87.5)", "oklch(26% 0.021 87.5)", "oklch(38% 0.021 87.5)", "oklch(49% 0.021 87.5)", "oklch(61% 0.021 87.5)", "oklch(72% 0.021 87.5)", "oklch(84% 0.021 87.5)", "oklch(95% 0.021 87.5)"] },
+      "hairline-dark": { "role": "neutral", "displayName": "Hairline, Dark", "canonical": "oklch(31.3% 0.012 93.8)", "tonalRamp": ["oklch(15% 0.012 93.8)", "oklch(26% 0.012 93.8)", "oklch(38% 0.012 93.8)", "oklch(49% 0.012 93.8)", "oklch(61% 0.012 93.8)", "oklch(72% 0.012 93.8)", "oklch(84% 0.012 93.8)", "oklch(95% 0.012 93.8)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Page titles in the hero block; About Me runs 2.6rem, all drop to 2rem under 720px." },
+      "headline": { "displayName": "Headline", "purpose": "Section titles; a muted regular-weight span carries date ranges." },
+      "title": { "displayName": "Title", "purpose": "Card and entry titles; 1.0–1.15rem depending on density." },
+      "body": { "displayName": "Body", "purpose": "All running text; secondary lines step to 0.85–0.98rem." },
+      "label": { "displayName": "Label", "purpose": "Uppercase kickers above page titles and the sidebar Awards block." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "ease-control", "value": "0.15s ease", "purpose": "Border, color, background, and transform on icon buttons; hover lifts 1px." },
+      { "name": "ease-theme", "value": "0.2s ease", "purpose": "Body background and text color when the theme toggles." },
+      { "name": "scroll-smooth", "value": "scroll-behavior: smooth", "purpose": "Anchor navigation on the html element." }
+    ],
+    "breakpoints": [
+      { "name": "stack-split", "value": "640px" },
+      { "name": "nav-collapse", "value": "720px" },
+      { "name": "single-column", "value": "900px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Icon Button",
+      "kind": "button",
+      "refersTo": "button-icon",
+      "description": "40px circular profile link; Paper fill, hairline border, Ink glyph, lifts 1px and turns clay on hover.",
+      "html": "<a class=\"ds-icon-btn\" href=\"#\" title=\"My CV\" aria-label=\"My CV\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 3h7l5 5v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z\"/><path d=\"M14 3v5h5\"/><line x1=\"8.5\" y1=\"12\" x2=\"15.5\" y2=\"12\"/><line x1=\"8.5\" y1=\"15.5\" x2=\"15.5\" y2=\"15.5\"/></svg></a>",
+      "css": ".ds-icon-btn { width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--border, #e8e6e2); border-radius: 50%; color: var(--text, #1a1a1a); background: var(--surface, #f7f6f4); text-decoration: none; transition: border-color .15s ease, color .15s ease, background .15s ease, transform .15s ease; } .ds-icon-btn svg { width: 18px; height: 18px; display: block; } .ds-icon-btn:hover, .ds-icon-btn:focus-visible { border-color: var(--accent, #b3402f); color: var(--accent, #b3402f); transform: translateY(-1px); outline: none; }"
+    },
+    {
+      "name": "Icon Button — Emphasized",
+      "kind": "button",
+      "refersTo": "button-icon-emph",
+      "description": "The one solid-accent control per page (LinkedIn); text switches to Night on the lighter dark-mode accent.",
+      "html": "<a class=\"ds-icon-btn-emph\" href=\"#\" title=\"LinkedIn\" aria-label=\"LinkedIn\"><svg viewBox=\"0 0 24 24\"><text x=\"12\" y=\"17\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"currentColor\" font-family=\"Arial, sans-serif\">in</text></svg></a>",
+      "css": ".ds-icon-btn-emph { width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--accent, #b3402f); border-radius: 50%; background: var(--accent, #b3402f); color: var(--accent-contrast, #ffffff); text-decoration: none; transition: opacity .15s ease, transform .15s ease; } .ds-icon-btn-emph svg { width: 18px; height: 18px; display: block; } .ds-icon-btn-emph:hover, .ds-icon-btn-emph:focus-visible { opacity: 0.88; transform: translateY(-1px); outline: none; }"
+    },
+    {
+      "name": "Theme Toggle",
+      "kind": "button",
+      "refersTo": "button-theme-toggle",
+      "description": "34px pill in the nav that flips light/dark and persists the choice.",
+      "html": "<button class=\"ds-theme-toggle\" aria-label=\"Toggle dark mode\">&#9789;</button>",
+      "css": ".ds-theme-toggle { border: 1px solid var(--border, #e8e6e2); background: var(--surface, #f7f6f4); color: var(--text, #1a1a1a); border-radius: 999px; width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; font-size: 15px; transition: border-color .15s ease, color .15s ease; } .ds-theme-toggle:hover, .ds-theme-toggle:focus-visible { border-color: var(--accent, #b3402f); color: var(--accent, #b3402f); outline: none; }"
+    },
+    {
+      "name": "Site Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Sticky, blurred header: bold brand at left, 0.95rem links with a 2px underline that turns clay on hover/active.",
+      "html": "<header class=\"ds-header\"><div class=\"ds-nav-inner\"><a class=\"ds-brand\" href=\"#\">Josiah Hester</a><nav class=\"ds-nav\"><a href=\"#\" class=\"active\">About</a><a href=\"#\">News</a><a href=\"#\">Research</a><a href=\"#\">Teaching</a><a href=\"#\">Publications</a></nav></div></header>",
+      "css": ".ds-header { position: relative; background: var(--bg, #ffffff); border-bottom: 1px solid var(--border, #e8e6e2); font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; } .ds-nav-inner { max-width: 1080px; margin: 0 auto; padding: 16px 28px; display: flex; align-items: center; justify-content: space-between; gap: 20px; } .ds-brand { font-weight: 700; font-size: 1.5rem; color: var(--text, #1a1a1a); text-decoration: none; white-space: nowrap; } .ds-nav { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; font-size: 0.95rem; } .ds-nav a { color: var(--text, #1a1a1a); text-decoration: none; padding: 4px 0; border-bottom: 2px solid transparent; transition: color .15s ease, border-color .15s ease; } .ds-nav a:hover, .ds-nav a:focus-visible, .ds-nav a.active { color: var(--accent, #b3402f); border-bottom-color: var(--accent, #b3402f); outline: none; }"
+    },
+    {
+      "name": "Research Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Paper card with a 190px cover image, summary, dashed-rule impact line with a clay lead-in, and a bold link pinned to the base.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-card-img\" role=\"img\" aria-label=\"Project photo\"></div><div class=\"ds-card-body\"><h3>Battery-Free Game Boy</h3><p>A fully playable handheld console powered only by solar and kinetic energy harvesting.</p><div class=\"ds-card-impact\"><strong>Impact:</strong> Distinguished Paper Award, IMWUT/UbiComp 2021; Guinness World Record (2022).</div><div class=\"ds-card-link\"><a href=\"#\">freethegameboy.info &rarr;</a></div></div></article>",
+      "css": ".ds-card { border: 1px solid var(--border, #e8e6e2); border-radius: 10px; overflow: hidden; background: var(--surface, #f7f6f4); display: flex; flex-direction: column; max-width: 420px; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; color: var(--text, #1a1a1a); } .ds-card-img { height: 190px; background: linear-gradient(135deg, #2b6cb0, #f6a623); } .ds-card-body { padding: 18px 20px 20px; flex: 1; display: flex; flex-direction: column; } .ds-card h3 { margin: 0 0 8px; font-size: 1.15rem; font-weight: 600; } .ds-card p { margin: 0 0 10px; font-size: 0.94rem; line-height: 1.6; } .ds-card-impact { font-size: 0.86rem; color: var(--text-muted, #6b6b6b); border-top: 1px dashed var(--border, #e8e6e2); padding-top: 10px; margin-top: auto; line-height: 1.55; } .ds-card-impact strong { color: var(--accent, #b3402f); } .ds-card-link { font-size: 0.88rem; font-weight: 600; margin-top: 12px; } .ds-card-link a { color: var(--accent, #b3402f); text-decoration: none; } .ds-card-link a:hover, .ds-card-link a:focus-visible { text-decoration: underline; }"
+    },
+    {
+      "name": "Honor Chip",
+      "kind": "chip",
+      "refersTo": "chip-honor",
+      "description": "Pill with a Clay Wash icon disc, bold award name, and muted sub-line.",
+      "html": "<div class=\"ds-honor-chip\"><span class=\"ds-honor-icon\">&#127942;</span><span><b>Allen Taflove Best Teacher Award</b> <span class=\"ds-honor-sub\">&mdash; ECE, Northwestern (2021)</span></span></div>",
+      "css": ".ds-honor-chip { display: inline-flex; align-items: center; gap: 10px; border: 1px solid var(--border, #e8e6e2); background: var(--surface, #f7f6f4); border-radius: 999px; padding: 8px 16px 8px 10px; font-size: 0.88rem; color: var(--text, #1a1a1a); font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; } .ds-honor-icon { width: 28px; height: 28px; border-radius: 50%; background: var(--accent-soft, #f1e3e0); color: var(--accent, #b3402f); display: inline-flex; align-items: center; justify-content: center; font-size: 0.95rem; flex-shrink: 0; } .ds-honor-chip b { font-weight: 600; } .ds-honor-sub { color: var(--text-muted, #6b6b6b); }"
+    },
+    {
+      "name": "Alert Banner",
+      "kind": "custom",
+      "refersTo": "banner-alert",
+      "description": "Clay Wash notice block with an accent-tinted border, used for pointers like the Google Scholar note.",
+      "html": "<div class=\"ds-alert\">The full, continuously updated list of publications lives on <a href=\"#\">Google Scholar</a>.</div>",
+      "css": ".ds-alert { background: var(--accent-soft, #f1e3e0); border: 1px solid color-mix(in srgb, var(--accent, #b3402f) 35%, var(--border, #e8e6e2)); color: var(--text, #1a1a1a); border-radius: 10px; padding: 14px 18px; font-size: 0.94rem; line-height: 1.6; font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; } .ds-alert a { color: var(--accent, #b3402f); font-weight: 600; text-decoration: none; } .ds-alert a:hover, .ds-alert a:focus-visible { text-decoration: underline; }"
+    },
+    {
+      "name": "News Row",
+      "kind": "custom",
+      "refersTo": "blurb-news",
+      "description": "Hairline-ruled list row: muted tabular date in a 110px column, body text with clay links; the signature list pattern.",
+      "html": "<div class=\"ds-news-list\"><div class=\"ds-news-item\"><div class=\"ds-news-date\">06/2026</div><div>Our <b>SpiderCam</b> project is a <b>Highlight Paper</b> at <a href=\"#\">CVPR 2026</a>.</div></div><div class=\"ds-news-item\"><div class=\"ds-news-date\">05/2026</div><div><b><a href=\"#\">SoundOff</a></b>, our battery-free passive ultrasound tags, made a splash in the press.</div></div></div>",
+      "css": ".ds-news-list { font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; color: var(--text, #1a1a1a); font-size: 17px; line-height: 1.65; } .ds-news-item { display: grid; grid-template-columns: 110px 1fr; gap: 20px; padding: 16px 0; border-top: 1px solid var(--border, #e8e6e2); } .ds-news-item:first-child { border-top: none; } .ds-news-date { color: var(--text-muted, #6b6b6b); font-size: 0.85rem; font-variant-numeric: tabular-nums; padding-top: 2px; } .ds-news-item a { color: var(--accent, #b3402f); text-decoration: none; } .ds-news-item a:hover, .ds-news-item a:focus-visible { text-decoration: underline; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Field Notebook",
+    "overview": "A scientist's clean, honest record. The site is calm, documentary, and precise: generous whitespace, one warm clay-red accent used the way a pen uses ink, and photographs that are evidence rather than decoration — a keynote stage, a panel at the New Museum, a 3D-printed console, a wetland buoy. Nothing on the page is there to impress; it is there because it happened. That restraint is deliberate. The owner's positioning (Indigenous knowledge systems as a design paradigm for computing, alongside rigorous systems research) lands harder when the surface around it stays composed.\n\nDensity is low and rhythm is steady. Content sits in a single 1080px column with 28px gutters; sections are separated by 40px of air and a one-pixel hairline; lists (news, publications, essays) are hairline-ruled rows rather than boxed cards. Headlines are light (weight 300) and large; emphasis comes from size and the accent, never from heavy type. Light and dark themes are both first-class and share every token name — dark mode is a warmer, lower-contrast night version of the same notebook, not a different product.",
+    "keyCharacteristics": [
+      "Whitespace-forward single column; hairline rules do the structural work.",
+      "One accent, Volcanic Clay, used mostly as ink (links, years, kickers) and as a solid fill only on the page's single emphasized action.",
+      "Light, large headlines over a 17px body with a 1.65 line-height.",
+      "Real, self-hosted photography clipped to the same 10px radius as every card.",
+      "Flat surfaces: zero drop shadows; depth comes from Paper-on-White tone and 1px borders.",
+      "Small uppercase kickers (0.78rem, 0.12em tracking) label pages and sidebar blocks."
+    ],
+    "rules": [
+      { "name": "The Accent-as-Ink Rule", "body": "Volcanic Clay is written, not painted. It colors text, underlines, and years; it fills exactly one control per page (the emphasized icon button). Large clay areas are not part of this system.", "section": "colors" },
+      { "name": "The Paired Token Rule", "body": "Every color exists as a light/dark pair under one variable name (--bg, --surface, --text, --text-muted, --border, --accent, --accent-soft, --accent-contrast). New colors join as pairs or not at all.", "section": "colors" },
+      { "name": "The Light Headline Rule", "body": "Headings are weight 300. If something needs more emphasis, make it larger or give it the accent; never make it bolder.", "section": "typography" },
+      { "name": "The Tabular Date Rule", "body": "Dates in list rows use font-variant-numeric: tabular-nums and sit in a fixed 110px column so years align down the page.", "section": "typography" },
+      { "name": "The Hairline Rule", "body": "If it needs an edge, it gets a 1px border in the Hairline color — never a shadow, never a thicker line. Dotted hairlines separate award rows; a dashed hairline separates a card's impact line from its summary.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep every color as a light/dark pair under the existing variable names; add --accent-contrast-style helpers rather than hardcoding white or black on fills.",
+      "Do use the 10px radius, a 1px Hairline border, and Paper fill for any new container; use pills only for chips and toggles, circles only for icon buttons.",
+      "Do set headings at weight 300 and reach for size or Volcanic Clay before weight.",
+      "Do keep kickers at 0.78rem, 600, uppercase, 0.12em tracking, above the page title in the hero block.",
+      "Do self-host images in img/, wrap them in the 10px/Hairline treatment, and write descriptive alt text; embed third-party media only through official iframes or oEmbed, never hotlinked CDN files.",
+      "Do keep list content as hairline rows (news, publications, essays) rather than converting them to cards.",
+      "Do verify both themes: dark mode uses Sunset Coral as text and Night as text-on-fill, and must hold 4.5:1 contrast.",
+      "Do preserve Hawaiian orthography (ʻokina, kahakō) in any rendered text and alt attributes."
+    ],
+    "donts": [
+      "Don't add prohibitions here without the owner's confirmation — none have been established yet. The Do list above is the guardrail; if a proposed change conflicts with the incumbent system, ask before treating it as a rule."
+    ]
+  }
+}
