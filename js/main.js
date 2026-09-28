@@ -15,6 +15,24 @@
       });
     }
 
+    // Click-to-play video facades: swap the poster for the real player on demand
+    var facades = document.querySelectorAll('.video-facade[data-embed]');
+    Array.prototype.forEach.call(facades, function (facade) {
+      facade.addEventListener('click', function (e) {
+        e.preventDefault();
+        var iframe = document.createElement('iframe');
+        iframe.src = facade.getAttribute('data-embed');
+        iframe.title = facade.getAttribute('aria-label') || 'Video';
+        iframe.setAttribute('allow', 'autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share');
+        iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
+        iframe.setAttribute('allowfullscreen', '');
+        facade.innerHTML = '';
+        facade.appendChild(iframe);
+        facade.removeAttribute('href');
+        facade.removeAttribute('data-embed');
+      });
+    });
+
     var navToggle = document.querySelector('.nav-toggle');
     var nav = document.querySelector('.site-nav');
     if (navToggle && nav) {
