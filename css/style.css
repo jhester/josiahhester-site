@@ -511,6 +511,7 @@ h3.sub-title {
   max-width: 560px;
 }
 .write-media img { width: 100%; display: block; }
+.write-media iframe { width: 100%; aspect-ratio: 16 / 9; display: block; border: 0; }
 
 .write-split {
   display: flex;
