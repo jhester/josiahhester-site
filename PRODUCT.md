@@ -44,7 +44,7 @@ A consequence of this position: provocation is first-class. Op-eds, art/technolo
 - Third-party embeds in use: YouTube iframes and Instagram's official oEmbed blockquote. Avoid hotlinked assets whose URLs expire (a hand-rolled Instagram card broke this way once).
 - Images are self-hosted in `img/` (JPG and AVIF). Documents live in `files/`. Favicons live in `favicon/`.
 - **Terminology:** Hawaiian words carry correct orthography — ʻokina (ʻ) and kahakō (ā, ē, ī, ō, ū). Examples in use: Hawaiʻi, Kānaka Maoli, Mālama ʻĀina, Ahupuaʻa, Ka Moamoa, Ulu Lāhui, Purple Maiʻa, Kāneʻohe.
-- **Undecided / pending:** the "Internet of Batteryless Things" research card uses a stand-in image (`img/hero-bfree.jpg`) until the owner supplies a real one; the Teaching page's philosophy paragraph is a placeholder awaiting the owner's write-up; the Teaching course cards are real (two Georgia Tech, three Northwestern) but link nowhere by choice.
+- **Undecided / pending:** the Teaching page's philosophy paragraph is a placeholder awaiting the owner's write-up; the Teaching course cards are real (two Georgia Tech, three Northwestern) but link nowhere by choice.
 
 ## Brand Commitments
 
@@ -58,7 +58,7 @@ Real, owner-supplied material with paths:
 
 - `files/CV.pdf` — full CV, the source of truth for publications, awards, talks, and roles.
 - `files/malama-aina.pdf` — the Hello World Magazine (Raspberry Pi Foundation) essay.
-- `img/headshot4-short.jpg`, `img/project-collage.jpg`, `img/eahou-keynote.jpg`, `img/rhizome-panel.jpg`, `img/gameboy-wsj.avif`, and the research hero images (`hero-gameboy.jpg`, `hero-smfc.jpg`, `kc-hero.jpg`, `hero-bfree.jpg`).
+- `img/headshot4-short.jpg`, `img/project-collage.jpg`, `img/eahou-keynote.jpg`, `img/rhizome-panel.jpg`, `img/gameboy-wsj.avif`, and the research hero images (`hero-gameboy.jpg`, `hero-smfc.jpg`, `kc-hero.jpg`, `hero-iobt-cacm.jpg` — the CACM cover-feature image, supplied by the owner).
 - `georgia-data-center-flier.html` — BBISS policy brief flier (Saeed & Hester, TPRC 2026).
 - Press history with links in `index.html` (WSJ, BBC, Scientific American, Popular Science, CNET, and others); awards list in `index.html` (PECASE 2025, Sloan Fellowship, NSF CAREER, and others); full publication list in `publications.html`.
 
